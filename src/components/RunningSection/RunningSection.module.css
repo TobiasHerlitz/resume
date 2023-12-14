@@ -1,0 +1,66 @@
+.root {
+  --horizontal-padding: calc(var(--gap) * 3);
+  background: var(--main-color);
+  display:flex;
+  flex-direction: column;
+  padding: 0 var(--horizontal-padding) 32px 0;
+  overflow: hidden;
+  position: relative;
+}
+
+.root h2 {
+  padding-left: var(--horizontal-padding);
+}
+
+.headerGroup {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  text-align: right;
+  margin: 16px 0;
+  color: white;
+  gap: var(--gap);
+  position: relative;
+  z-index: 0;
+}
+
+.headerGroup span {
+  font-size: 1.2em;
+  text-transform: uppercase;
+}
+
+.headerGroup::before {
+  z-index: -1;
+  position: absolute;
+  top: -130px;
+  right: -100px;
+  content: '';
+  width: 500px;
+  height: 200px;
+  background: var(--highlight-color);
+  transform: rotate(20deg);
+}
+
+.sectionBody {
+  padding-left: var(--horizontal-padding);
+  white-space: pre-line;
+}
+
+.sectionBody p {
+  margin: 8px;
+}
+
+.sectionBody ul {
+  margin: 0px;
+  padding: 0 calc(var(--horizontal-padding) + 8px);
+}
+
+.sectionBody li {
+  margin: 4px 0;
+}
+
+.technologies {
+  display: flex;
+  flex-flow: row wrap;
+  gap: var(--gap);
+}

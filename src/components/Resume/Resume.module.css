@@ -1,0 +1,18 @@
+.root {
+  display: flex;
+  flex-direction: column;
+  gap: var(--gap);
+  background: #EEEEED;
+}
+
+.content {
+  display: grid;
+  grid-template-columns: 40% auto;
+  gap: var(--gap);
+}
+
+.rightSide {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}

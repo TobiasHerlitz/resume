@@ -1,0 +1,7 @@
+.root {
+  background: var(--highlight-color);
+  color: white;
+  padding: 8px 12px;
+  border-radius: 8px;
+  cursor: default;
+}

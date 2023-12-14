@@ -1,0 +1,21 @@
+.root {
+  display: flex;
+  padding: 24px 0;
+  flex-direction: row;
+  justify-content: space-evenly;
+  background: var(--main-color);
+}
+
+.iconWrapper {
+  width: 200px;
+  display: flex;
+  gap: 12px;
+  flex-direction: column;
+  align-items: center;
+}
+
+.iconWrapper svg {
+  width: auto;
+  height: 30px;
+  fill: var(--highlight-color);
+}
