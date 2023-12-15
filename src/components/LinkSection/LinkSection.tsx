@@ -1,3 +1,5 @@
+/// <reference types="vite-plugin-svgr/client" />
+
 import DocumentIcon from '@assets/document.svg?react';
 import WebVersionQrCode from '@assets/webVersionQrCode.svg?react';
 import LinkedInLogo from '@assets/linkedIn.svg?react';

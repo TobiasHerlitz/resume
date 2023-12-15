@@ -1,3 +1,5 @@
+/// <reference types="vite-plugin-svgr/client" />
+
 import MailLogo from '@assets/mail.svg?react';
 import PhoneLogo from '@assets/phone.svg?react';
 import HomeLogo from '@assets/home.svg?react';
