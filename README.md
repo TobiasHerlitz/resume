@@ -38,6 +38,5 @@ Some choices
 
 
 TODO:
-- Replace favicon
 - Add css preprocessor or similar. Might only be needed for dark mode
 - Check capitalization on components
