@@ -6,7 +6,7 @@ import postcssModules from 'postcss-modules';
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  base: "/poc-three",
+  base: "/resume",
   plugins: [react(), svgr()],
   resolve: {
     alias: {
