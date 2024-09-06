@@ -8,9 +8,15 @@ export type Activity = {
 export const experiences: Activity[] = [
   {
     heading: 'Full-stack Developer',
-    years: '2021-',
+    years: '2024',
+    organization: 'Dealy',
+    description: 'Temporary employment as the sole developer on a B2B platform'
+  },
+  {
+    heading: 'Full-stack Developer',
+    years: '2021-2023',
     organization: 'Entire Group AB',
-    description: 'I build features and provide support for various clients, each using differing stacks. This includes a lead role for one of the longer running partnerships. In addition to development work, I was entrusted by management to set up and subsequently lead a staff forum.'
+    description: 'I build features and provide support for various clients, each using differing stacks. This includes a lead role for one of the longer running partnerships. In addition to development work, I was entrusted by management to set up and subsequently lead a staff forum'
   },
   {
     heading: 'Receptionist and Night Porter',
