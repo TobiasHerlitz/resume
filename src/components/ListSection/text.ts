@@ -10,13 +10,13 @@ export const experiences: Activity[] = [
     heading: 'Full-stack Developer',
     years: '2024',
     organization: 'Dealy',
-    description: 'Temporary employment as the sole developer on a B2B platform'
+    description: 'Temporary employment on a self-hosted B2B platform providing e- commerce, ERP-integration and task management. As the sole developer this allowed me to further my skills over the entire stack+. Translating user needs into design, implementing and finally deploying.'
   },
   {
     heading: 'Full-stack Developer',
     years: '2021-2023',
     organization: 'Entire Group AB',
-    description: 'I build features and provide support for various clients, each using differing stacks. This includes a lead role for one of the longer running partnerships. In addition to development work, I was entrusted by management to set up and subsequently lead a staff forum'
+    description: 'Building features and providing support for various clients, each using differing stacks. This included a lead role for one of the longer running partnerships. In addition to development work, I was entrusted by management to set up and subsequently lead a staff forum.'
   },
   {
     heading: 'Receptionist and Night Porter',
